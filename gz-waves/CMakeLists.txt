@@ -218,6 +218,7 @@ if ("${OGRE2-PlanarReflections}" STREQUAL "OGRE2-PlanarReflections-NOTFOUND")
 endif()
 
 if (OGRE2_FOUND)
+message("OGRE2 Found")
   set(HAVE_OGRE2 TRUE)
 endif()
 
