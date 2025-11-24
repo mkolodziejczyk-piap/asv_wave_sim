@@ -217,6 +217,8 @@ if ("${OGRE2-PlanarReflections}" STREQUAL "OGRE2-PlanarReflections-NOTFOUND")
     PRIVATE_FOR ogre2)
 endif()
 
+message("OGRE2 Found: ${OGRE2_FOUND}")
+
 if (OGRE2_FOUND)
 message("OGRE2 Found")
   set(HAVE_OGRE2 TRUE)
